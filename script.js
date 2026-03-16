@@ -30,3 +30,11 @@ function somar(){
     let resultado = valores.n1 + valores.n2;
     mostrarResultado(resultado);
 }
+
+function subtrair(){
+    let valores = pegarValores();
+    if(!valores) return;
+
+    let resultado = valores.n1 - valores.n2;
+    mostrarResultado(resultado);
+}
