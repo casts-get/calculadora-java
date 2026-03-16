@@ -46,3 +46,16 @@ function multiplicar(){
     let resultado = valores.n1 * valores.n2;
     mostrarResultado(resultado);
 }
+
+function dividir(){
+    let valores = pegarValores();
+    if(!valores) return;
+
+    if(valores.n2 === 0){
+        alert("Não é possível dividir por zero.");
+        return;
+    }
+
+    let resultado = valores.n1 / valores.n2;
+    mostrarResultado(resultado);
+}
