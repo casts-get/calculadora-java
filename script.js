@@ -19,3 +19,6 @@ function pegarValores() {
     return {n1, n2};
 }
 
+function mostrarResultado(valor){
+    document.getElementById("resultado").innerText = "Resultado: " + valor;
+}
