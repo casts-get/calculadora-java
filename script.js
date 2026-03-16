@@ -22,3 +22,11 @@ function pegarValores() {
 function mostrarResultado(valor){
     document.getElementById("resultado").innerText = "Resultado: " + valor;
 }
+
+function somar(){
+    let valores = pegarValores();
+    if(!valores) return;
+
+    let resultado = valores.n1 + valores.n2;
+    mostrarResultado(resultado);
+}
