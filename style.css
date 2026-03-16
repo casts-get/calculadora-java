@@ -4,3 +4,46 @@ body{
     text-align: center;
 }
 
+h1{
+    margin-top: 30px;
+    color: white;
+}
+
+.calculadora{
+    background: rgb(241, 72, 205);
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff31a6;
+    color: white;
+}
+
+button:hover{
+    background-color: #ee98ca;
+}
+
+#resultado{
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
